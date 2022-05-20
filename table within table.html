@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>Table within Table</title>
+</head>
+<body>
+    <table border = "1" align = "center">
+    <caption><h2>Table within Table</h2>
+    <hr>
+    </caption>
+        <tr>
+            <th>
+                Header 1
+            </th>
+            <th>
+                Header 2
+            </th>
+            <th>
+                Header 3
+            </th>
+            <th>
+                Header 4
+            </th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                2
+            </td>
+            <td rowspan = "2">
+                <table border = "1" align = "CENTER">
+                    <caption><h4>TABLE 1</h4></caption>
+                    <tr>
+                        <th>3</th>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>C</td>
+                    </tr>
+                </table>
+            </td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>
+                <table border = "1" align = "Center">
+                    <caption><h4>Table 2</h4></caption>
+                    <tr>
+                        <th>7</th>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td>B</td>
+                    </tr>
+                </table>
+            </td>
+            <td>9</td>
+            <td rowspan = "2">10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td colspan = "4">14</td>
+        </tr>
+    </table>
+</body>
+</html>
